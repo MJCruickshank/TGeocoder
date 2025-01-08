@@ -11,8 +11,8 @@ Telegram has become one of the main platforms Open Source Intelligence (OSINT) r
 
 - **Python 3.13** 
 - **conda**: The installation script that installs the dependencies needs to use both conda and pip to fetch the required dependencies, so please use conda and create a new conda virtual environment.
-- **OpenAI API Key**
-- **Telegram API ID, API Hash, Telephone Number**
+- **OpenAI** API Key
+- **Telegram**: API ID, API Hash, Telephone Number
 
 ### Installing Package Dependencies
 
