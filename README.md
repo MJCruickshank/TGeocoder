@@ -1,6 +1,8 @@
 # TGeocoder
 Automated parsing and geocoding of Telegram news channels
 
+!["TGeocoder"](https://github.com/MJCruickshank/TGeocoder/blob/main/header_image.jpg)
+
 ## Description
 
 Telegram has become one of the main platforms Open Source Intelligence (OSINT) researchers use to obtain primary information and breaking news. However, following a large number of channels is time-consuming, and extracting key information can be a tedious process. Moreover, the textual format of the data lacks a spatial component and thus is unsuitable for geographic analysis. TGeocoder leverages the Telegram API and OpenAI's GPT-4o LLM model to automatically parse large numbers of Telegram messages, and convert them into a machine-readable tabular format, wherein events within each message are summarised. It then extracts location data contained within the messages and finds the Lat/Lon coordinates of each event. Finally, each of these events is plotted on an interactive Folium map. 
